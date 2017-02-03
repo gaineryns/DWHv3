@@ -1,0 +1,15 @@
+
+<ion-row *ngFor="let product of products">
+    <ion-col width-20>
+        <strong>{{product.reference}}</strong>
+    </ion-col>
+    <ion-col>
+        <strong>{{product.nom}} </strong>
+    </ion-col>
+    <ion-col>
+        <strong>{{product.quantity}}</strong>
+    </ion-col>
+    <ion-col width-20>
+        <button ion-button clear item-right (click)="openModal({prod: product})">details</button>
+    </ion-col>
+</ion-row>

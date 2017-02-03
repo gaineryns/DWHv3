@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Products</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col width-80><ion-searchbar></ion-searchbar></ion-col>
+      <ion-col width-10><button ion-button color="light">Scan...</button></ion-col>
+    </ion-row>
+
+    <ion-row class="primary-col">
+      <ion-col width-20>
+        <strong>Reference</strong>
+      </ion-col>
+      <ion-col>
+        <strong>Description </strong>
+      </ion-col>
+      <ion-col>
+        <strong>Quantité</strong>
+      </ion-col>
+      <ion-col width-20>
+        <strong>action</strong>
+      </ion-col>
+    </ion-row>
+
+    <display-product></display-product>
+
+  </ion-grid>
+</ion-content>
