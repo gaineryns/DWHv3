@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-
 import { NavController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'commande-list',
   templateUrl: 'commandes.html'
 })
+
 export class Commandes {
   selectedItem: any;
   icons: string[];

@@ -1,3 +1,11 @@
 page-page2 {
-
+}
+h1{
+  text-align: center;
+}
+ion-list ion-item:nth-child(2n+1){
+  background-color: beige;
+}
+ion-list ion-item:nth-child(2n){
+  background-color: aquamarine;
 }

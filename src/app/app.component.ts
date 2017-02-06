@@ -1,9 +1,12 @@
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
+import { NfcPagePage } from '../pages/nfc-page/nfc-page'
 
 import { Products } from '../pages/products/products';
 import { Commandes } from '../pages/Commandes/commandes';
+
+import { MapPage } from '../pages/map/map';
 import { dashboard } from '../pages/dashboard/dashboard';
 
 @Component({
@@ -23,7 +26,8 @@ export class MyApp {
     this.pages = [
       { title: 'DashBoard', component: dashboard},
       { title: 'Produits', component: Products },
-      { title: 'Commandes', component: Commandes }
+      { title: 'Commandes', component: Commandes },
+      { title: 'NFC', component: NfcPagePage }
     ];
 
   }

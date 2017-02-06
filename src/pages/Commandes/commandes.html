@@ -8,25 +8,19 @@
 </ion-header>
 
 <ion-content>
-  <ion-grid>
-    <ion-row>
-      <ion-col width-33>
-        <button ion-item *ngFor="let item of items">
-          {{ item }}
-        </button>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-item *ngFor="let item of items">
-          {{ item }}
-        </button>
-      </ion-col>
-      <ion-col width-33>
-        
-      </ion-col>
-    </ion-row>
-    <ion-row>
+      <h1> Commandes disponible </h1>
 
+        <ion-list>
+          <ion-item>
+            <h2> titre </h2>
+            <p>number de produit</p>
+            <button ion-button clear item-right>View</button>
+          </ion-item>
+          <ion-item>
+            <h2> titre </h2>
+            <p>number de produit</p>
+            <button ion-button clear item-right>View</button>
+          </ion-item>
+        </ion-list>
 
-    </ion-row>
-  </ion-grid>
 </ion-content>

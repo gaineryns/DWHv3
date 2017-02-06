@@ -1,0 +1,13 @@
+.table-content{
+  ion-col{
+    text-align: center;
+    border-right: solid 1px #000000;
+  }
+}
+ion-row.table-content:nth-child(2n){
+  background-color: #c8c7cc;
+}
+ion-row.table-content:nth-child(2n+1){
+  background-color: #b2b2b2;
+
+}

@@ -1,12 +1,12 @@
-<ion-row *ngFor="let product of products">
+<ion-row *ngFor="let product of products" class="table-content">
     <ion-col width-20>
-        <strong>{{product.reference}}</strong>
+        <p>{{product.reference}}</p>
     </ion-col>
     <ion-col>
-        <strong>{{product.nom}} </strong>
+        <p> {{product.nom}} </p>
     </ion-col>
     <ion-col>
-        <strong>{{product.quantity}}</strong>
+        <p>{{product.quantity}}</p>
     </ion-col>
     <ion-col width-20>
         <button ion-button clear item-right (click)="openModal({prod: product})">details</button>
