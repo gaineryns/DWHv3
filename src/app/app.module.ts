@@ -3,7 +3,6 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Products } from '../pages/products/products';
 import { Commandes } from '../pages/Commandes/commandes';
-import { MapPage } from '../pages/map/map';
 import { NfcPagePage } from '../pages/nfc-page/nfc-page'
 import { dashboard } from '../pages/dashboard/dashboard';
 import { displayProductPage } from '../pages/products/displayProduct';
@@ -21,7 +20,6 @@ import { ModalContentPage } from '../pages/products/detail';
     BasicPage,
     ModalContentPage,
     ModalContent,
-    MapPage,
       NfcPagePage,
   ],
   imports: [
@@ -37,7 +35,6 @@ import { ModalContentPage } from '../pages/products/detail';
     BasicPage,
     ModalContentPage,
     ModalContent,
-    MapPage,
       NfcPagePage,
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

@@ -6,7 +6,6 @@ import { NfcPagePage } from '../pages/nfc-page/nfc-page'
 import { Products } from '../pages/products/products';
 import { Commandes } from '../pages/Commandes/commandes';
 
-import { MapPage } from '../pages/map/map';
 import { dashboard } from '../pages/dashboard/dashboard';
 
 @Component({
